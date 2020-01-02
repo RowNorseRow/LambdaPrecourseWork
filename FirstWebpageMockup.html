@@ -1,0 +1,63 @@
+<!--
+Exercise - Add CSS
+
+Add HTML and CSS to create a webpage for a business (real or imagined). The following are the minimum requirements for your page; feel free to add more HTML or CSS if you have additional time.
+
+HTML requirements:
+* three divs
+* a span and a paragraph
+* two headers
+* a link
+* an image
+* a list
+* a class (which should be put on multiple elements)
+* two ids
+
+CSS requirements:
+* a tag selector
+* a class selector
+* an id selector
+* use the following attributes: height, width, border, color, background-color, font-size
+* add margin and padding to two different elements
+
+Stretch Goal: Use online resources to learn a little about the CSS properties of 'display' and 'position'. Incorporate them into your page.
+-->
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="WegpageStyling.css">
+    <title>Metal Mouth Records</title>
+  </head>
+  <body>
+    <header class="header"><h1>Metal Mouth Records</h1></header>
+    <div class="header-links">
+      <ul id="navList">
+        <li><a href="#artists">Artists</a></li>
+        <li><a href="#staff">Staff</a></li>
+        <li>Contact</li>
+        <li>About</li>
+      </ul>
+    </div>
+    <div class="artist">
+      <header id="artist-header"><h2><a name="artists">ARTISTS</a></h2></header>
+      <div class= "artist-container" id="ETD">
+        <img src="https://scontent-dfw5-1.xx.fbcdn.net/v/t31.0-8/1400520_601338929924772_597471860_o.jpg?_nc_cat=103&_nc_ohc=w8_FkJVsKRQAQm1QXTgwgkrVgxLA4nSzQlnPV2rv7idydKYrNjPn_ErkA&_nc_ht=scontent-dfw5-1.xx&oh=06165b01dcc25620088abd9e6da7ea51&oe=5EB2F9E1" class="artist-photo"/>
+        <header class="artist-name"><a href="https://www.youtube.com/watch?v=x6YRrVN_lKI" target="popup" onclick="window.open('https://www.youtube.com/watch?v=x6YRrVN_lKI','popup','width=500, height=500, scrollbars=no,resizable=no'); return false;" class="popup"><h3>ENTER THE DOJO</h3></a></header>
+        <p class="artist-bio" id="ETD">Founded in the winter of 2012, Enter the Dojo set out to make a name for themselves in the metal ranks and to be classified as another legendary band to come from the state of Arkansas. With the three founding members: Allen Ellis, Christian Gregory, and Dreu Plattsmier wanting to set out and show its possible to play the music you love and still be successful. They added vocalist, Brody Stout, and bassist Michael Maxwell to round out the best group of musicians they could find. After a year of gigging heavily and gaining more and more steam in their local and regional scene, guitarist Christian Gregory decided it was time for him to take a different path and left the band to pursue his family and career. After about a month of searching for a replacement, they found current guitarist, Larz Davis, to fill the void. Since joining the band, Larz has accounted for helping write a whole new style of music for ETD and with their new sound they plan to take it across the nation and show how much they truely love playing their music. Enter the Dojo has shared the stage with many great metal acts such as Born of Osiris, Volumes, Like Moths to Flames, This or the Apocalypse, and many more. With their steadily increasing fanbase and a slew of new music coming, Enter the Dojo is set to take off on their endeavor to become one of the great names in metal. They will be gigging heavily in the coming months with several festivals and tour dates on the lineup. Get ready for a new breed of metal, these guys are here to stay.</p>
+      </div>
+      <div class="artist-container" id="leona">
+        <img src="https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/81968954_10159024144220730_1615350621798400000_n.jpg?_nc_cat=111&_nc_ohc=UtZ23HcuBbQAQl9x65OowOtidu_LiOQjKaUjODOHIszpQJecGq55jMk1w&_nc_ht=scontent-dfw5-1.xx&oh=8e98749a40f8ac4032440d41cbaa7d69&oe=5E6B1832" class="artist-photo" id="leona-photo"/>
+        <header class="artist-name"><a href="https://www.youtube.com/watch?v=LjJukIoQi6E&feature=share&fbclid=IwAR1jxJAsPG3bsYC3J8l1VP0Y7ME8sqWkab__g_r9H8ZTY-EBrd4soeyBYDc" target="popup" onclick="window.open('https://www.youtube.com/watch?v=LjJukIoQi6E&feature=share&fbclid=IwAR1jxJAsPG3bsYC3J8l1VP0Y7ME8sqWkab__g_r9H8ZTY-EBrd4soeyBYDc','popup','width=500, height=500, scrollbars=no,resizable=no'); return false;"><h3>LEONA</h3></a></header>
+        <p class="artist-bio">One day some guys followed their ambitions to make influencal music and party naked.
+      </div>
+    </div>
+    <div class="staff">
+      <header id="staff-header"><h2><a name="staff">STAFF</a></h2></header>
+      <div class="staff-container" id="allen">
+        <img src="https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/21765355_10156241724725730_8658547427626252243_n.jpg?_nc_cat=110&_nc_ohc=gyqeuIsiQuMAQlF2Iw3UzMuBp1SFz10PlTDFc0AhheUJ4L-cqUc9O19Sw&_nc_ht=scontent-dfw5-1.xx&oh=89518e39c4d1ef45fe890b7729b1818b&oe=5E667979" class="staff-photo"/>
+        <header class="staff-header"><h3>Allen Ellis- Artist Relations</h3></header>
+      </div>
+    </div>
+  </body>
+</html>
